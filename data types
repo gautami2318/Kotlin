@@ -1,0 +1,14 @@
+import kotlin.jvm.JvmStatic as JvmStatic
+
+class MyClass {
+
+    companion object{
+         @JvmStatic
+         fun main(args: Array<String>)
+         {
+             var name:String ="Gautami"
+             println("Hello $name, Welcome to Kotlin !")
+         }
+    }
+
+}

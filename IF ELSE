@@ -1,0 +1,17 @@
+import kotlin.jvm.JvmStatic as JvmStatic
+
+class MyClass {
+
+    companion object{
+         @JvmStatic
+         fun main(args: Array<String>) {
+         var num= 11
+
+             if (num>100){
+                 println("NO. IS GREATER")
+             } else {
+                 println("NO. IS SMALLER")
+             }
+         }
+         }
+    }

@@ -1,0 +1,9 @@
+fun main(args: Array<String>) {
+            val x = 6
+            val result = when {
+                x % 2 ==0 -> "number is even"
+
+                else -> "number is odd"
+            }
+            println(result)
+        }

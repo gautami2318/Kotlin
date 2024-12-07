@@ -1,0 +1,9 @@
+ fun main(args: Array<String>) {
+            val x = 2
+            val result = when {
+                x < 0 -> "Negative"
+                x == 0 -> "Zero"
+                else -> "Positive"
+            }
+            println(result)  
+        }

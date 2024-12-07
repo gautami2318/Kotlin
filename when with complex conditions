@@ -1,0 +1,9 @@
+ fun main(args: Array<String>) {
+            val x = "abc"
+            val result = when(x) {
+                is String -> "It's a String"
+                is Int -> "It's a Integer"
+                else -> "Unknown Type"
+            }
+            println(result)
+        }

@@ -1,0 +1,9 @@
+ fun main(args: Array<String>) {
+            val x = null
+            val result = when(x) {
+                null -> "String is null"
+
+                else -> "String is not null"
+            }
+            println(result)
+        }

@@ -1,0 +1,9 @@
+ fun main(args: Array<String>) {
+            val x = 2
+            val result = when(x) {
+                in 1..10 -> "ranges in between 1 and 10"
+                in 11..20 -> "ranges in between 1 and 20"
+                else -> "Out Of Range"
+            }
+            println(result)
+        }

@@ -1,0 +1,5 @@
+fun main()
+{
+val squares = Array(5) { i -> (i * i) }  
+println(squares[4]) 
+}

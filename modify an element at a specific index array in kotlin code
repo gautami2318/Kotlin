@@ -1,0 +1,8 @@
+fun main()
+{
+  val numbers = arrayOf(10,20,30,40,50)
+  println("Original array: ${numbers.joinToString()}")
+  numbers[3]=8334
+  numbers[2]=3012
+  println("Updated array:${numbers.joinToString()}")
+}

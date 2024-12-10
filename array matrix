@@ -1,0 +1,12 @@
+fun main()
+{
+  val matrix = Array(3) { Array(3) {0} }
+  matrix[0][2]=3
+  matrix[1][1]=30
+  matrix[2][0]=3 
+  println("Array : ")
+  for(row in matrix)
+  {
+    println(row.joinToString(" "))
+  }
+}

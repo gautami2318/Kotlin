@@ -1,0 +1,11 @@
+fun main() {
+    val numbersList = arrayListOf(1, 2, 3, 4)
+    numbersList.add(5)
+    println("ArrayList after adding an element: $numbersList")  
+    numbersList.remove(3)
+    println("ArrayList after removing an element: $numbersList")  
+    println("Iterating through ArrayList:")
+    for (number in numbersList) {
+        println(number)
+    }
+}

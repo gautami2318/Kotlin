@@ -1,0 +1,9 @@
+fun main()
+{
+    var v:Int = 2322
+    var l:Long = v.toLong()
+    var d:Double =v.toDouble()
+    println(d)
+    println(l)
+
+}

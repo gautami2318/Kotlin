@@ -1,0 +1,9 @@
+fun main()
+{
+  val a = 30
+  val b = 12
+  
+  println("+ = ${a.plus(b)}")
+  println("- = ${a.minus(b)}")
+  
+}

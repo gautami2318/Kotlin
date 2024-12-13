@@ -1,0 +1,8 @@
+class Animal(val name: String, val color: String)
+fun main() {
+    println("This is my main method")
+    val animal1 = Animal("Tommy", "white")
+     
+    println(animal1.name)
+    println(animal1.color)
+}

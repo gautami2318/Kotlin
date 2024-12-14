@@ -1,0 +1,20 @@
+interface myInter{
+  fun m1()
+  fun m2()
+  {
+    println("This is m2 of myInter")
+  }
+}
+class myInterImp:myInter
+{
+  override fun m1()
+  {
+    println("This is override method")
+  }
+}
+fun main()
+{
+  var obj = myInterImp()
+  obj.m1()
+  obj.m2()
+}

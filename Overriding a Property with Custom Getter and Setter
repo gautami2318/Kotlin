@@ -1,0 +1,16 @@
+open class Animal {
+    open var name: String = "Unknown"
+}
+class Dog : Animal() {
+    override var name: String = "Dog" 
+    override get() = "The name of this animal is: $field"
+    override set(value) {
+        field = value.uppercase()
+    }
+}
+fun main() {
+    val dog = Dog()
+    println(dog.name)  
+    dog.name = "Bulldog"
+    println(dog.name) 
+}

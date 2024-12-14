@@ -1,0 +1,16 @@
+fun main()
+{
+  try{
+    val a = 30
+    val b = 3
+    val result =a/b
+    println("The result is : $result")
+  }
+  catch(e:ArithmeticException)
+  {
+    println("Error : ${e.message}")
+  }
+  finally{
+    println("Finally block executed")
+  }
+}

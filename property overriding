@@ -1,0 +1,10 @@
+open class Animal {
+    open val sound: String = "Some sound"
+}
+class Dog : Animal() {
+    override val sound: String = "Woof!"
+}
+fun main() {
+    val dog = Dog()
+    println(dog.sound)  
+}

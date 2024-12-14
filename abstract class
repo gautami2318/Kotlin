@@ -1,0 +1,16 @@
+abstract class Test {
+    abstract fun message()
+    fun sayHello() {
+        println("Hello")
+    }
+}
+class TestImp1 : Test() {
+    override fun message() {
+        println("This is child")
+    }
+}
+fun main() {
+    val obj = TestImp1()
+    obj.message()  
+    obj.sayHello()  
+}

@@ -1,0 +1,16 @@
+fun main() {
+    println("Program started")
+    val obj = Scanner(System.in)
+    println("Enter first number (a):")
+    val a = obj.nextInt()
+    println("Enter second number (b):")
+    val b = obj.nextInt()
+    if (b == 0) {
+        println("Error: Division by zero is not allowed.")
+    } else {
+        val c = a / b
+        println("The result of $a divided by $b is: $c")
+    }
+    println("Program completed")
+    obj.close()
+}

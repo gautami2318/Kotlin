@@ -1,0 +1,7 @@
+fun main() {
+    for (i in 1..10) {
+        val step = if (i % 2 == 0) 1 else 2
+        val range = i..(i + step)
+        println("Range: $range")
+    }
+}

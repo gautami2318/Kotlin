@@ -1,0 +1,11 @@
+fun main(args:Array<String>)
+{
+  val age = 20
+  when(age){
+    in 0..12-> println("Child")
+    in 13..19->println("Teenager")
+    in 20..64->println("adult")
+    in 65..100->println("Senior")
+    else->println("Invalid age")
+  }
+}

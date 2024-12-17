@@ -1,0 +1,8 @@
+fun main()
+{
+  var map = hashMapOf<String,Int>("Gautami" to 20 , "Param" to 21)
+  println(map)
+  var age = map.get("Gautami")
+  println(age)
+  println(map.size)
+}

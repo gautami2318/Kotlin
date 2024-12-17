@@ -1,0 +1,13 @@
+fun main()
+{
+  var list = listOf<Int>(23,85,45,96,41) 
+  for (e in list){
+    println(e)
+  }
+  println(list.contains(23))
+  println(list.size)
+  val list1 = mutableListOf<Int>(235,852,456,753,951,123)
+  println(list1)
+  list1.add(999)
+  println(list1)
+}

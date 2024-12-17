@@ -1,0 +1,9 @@
+fun main()
+{
+  var list = listOf<Int>(23,85,45,96,41)
+  for (e in list){
+    println(e)
+  }
+println(list.contains(23))
+ println(list.size)        
+}

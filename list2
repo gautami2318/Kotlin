@@ -1,0 +1,21 @@
+fun main()
+{
+  var list = listOf<Int>(23,85,45,96,41) 
+  for (e in list){
+    println(e)
+  }
+  println(list.contains(23))
+  println(list.size)
+  val list1 = mutableListOf<Int>(235,852,456,753,951,123)
+  println(list1)
+  list1.add(999)
+  println(list1)
+  //set of -(immutable set) - unordered collection
+  var sets = setOf<Double>(123.5,963.5,789.4,159.6,1.0)
+  println(sets)
+    //mutable set of
+  var names = mutableSetOf<String>("Gautami","Mahesh")
+  println(names)
+  names.add("Patil")
+  println(names)
+}

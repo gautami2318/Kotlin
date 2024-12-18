@@ -1,0 +1,11 @@
+fun main()
+{
+  val countryCodes = mutableMapOf("USA" to 1, "Canada" to 2, "UK" to 30)
+  println(countryCodes)
+  countryCodes["Germany"] = 49//adding new values
+  println(countryCodes)
+  countryCodes["USA"] = 123//modifying the values
+  println(countryCodes)
+  countryCodes.remove("UK")
+  println(countryCodes)
+}

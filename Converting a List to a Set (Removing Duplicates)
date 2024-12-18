@@ -1,0 +1,7 @@
+fun main()
+{
+  val pairs = listOf("A" to 1,"B" to 2,"c" to 3)
+  println(pairs)
+  val map = pairs.toMap()
+  println(map)
+}

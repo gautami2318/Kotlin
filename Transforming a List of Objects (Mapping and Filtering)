@@ -1,0 +1,19 @@
+data class Person(val name: String, val age: Int)
+
+fun main() {
+    val people = listOf(
+        Person("Alice", 25),
+        Person("Bob", 17),
+        Person("Charlie", 30),
+        Person("Dave", 15),
+        Person("Eve", 22)
+    )
+
+    val result = people
+        .filter { it.age >= 18 } // Keep only people who are 18 or older
+        .map { it.name to it.age } // Map to a pair of (name, age)
+        .sortedBy { it.second } // Sort by age
+
+    println(result) // Prints [(Alice, 25), (Eve, 22), (Charlie, 30)]
+}
+

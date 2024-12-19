@@ -1,0 +1,15 @@
+data class Item(val name: String, val price: Double)
+data class Order(val id: Int, val items: List<Item>)
+
+fun main() {
+    val orders = listOf(
+        Order(1, listOf(Item("Apple", 5.0), Item("Banana", 15.0))),
+        Order(2, listOf(Item("Orange", 10.0), Item("Grapes", 20.0))),
+        Order(3, listOf(Item("Mango", 25.0), Item("Peach", 8.0)))
+    )
+val totalPrice = orders
+        .flatMap { it.items } 
+        .filter { it.price >= 10.0 } 
+        .sumOf { it.price } 
+    println("Total Price: $totalPrice")  
+}

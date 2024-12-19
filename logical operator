@@ -1,0 +1,11 @@
+fun main()
+{
+val b1 = false || false 
+val b2 = false || true 
+val b3 = true || false  
+val b4 = true || true
+println(b1)
+println(b2)
+println(b3)
+println(b4)
+}

@@ -1,0 +1,4 @@
+fun main()
+{
+println("Eat. Sleep. Code.\n".repeat(7)) 
+}

@@ -1,0 +1,16 @@
+fun main() {
+    // List
+    val list = listOf(1, 2, 3, 4)
+    println("List: $list")
+    
+    // Set
+    val set = setOf(1, 2, 2, 3)
+    println("Set: $set")
+    
+    // Map
+    val map = mapOf("key1" to "value1", "key2" to "value2")
+    println("Map: $map")
+    
+    // Accessing Map values
+    println("Map value for key1: ${map["key1"]}")
+}

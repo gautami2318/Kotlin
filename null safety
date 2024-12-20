@@ -1,0 +1,6 @@
+fun main() {
+    var name: String? = "Kotlin"
+    println(name?.length)  // Safe call (?.) returns null if name is null
+     name = null
+    println(name?.length ?: "Name is null")  // Elvis operator (?:) handles null
+}

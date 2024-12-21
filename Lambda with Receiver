@@ -1,0 +1,28 @@
+class HTML {
+    fun body(init: Body.() -> Unit) {
+        val body = Body()
+        body.init()
+        println(body.content)
+    }
+}
+
+class Body {
+    var content = ""
+    fun p(text: String) {
+        content += "<p>$text</p>\n"
+    }
+}
+
+fun html(init: HTML.() -> Unit) {
+    val html = HTML()
+    html.init()
+}
+
+fun main() {
+    html {
+        body {
+            p("This is a paragraph.")
+            p("This is another paragraph.")
+        }
+    }
+}
